@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <style>
+    .text { font-family: 'Arial', sans-serif; fill: #0D2349; }
+    .title { font-size: 100px; font-weight: bold; }
+    .subtitle { font-size: 50px; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="white" />
+
+  <!-- Sparkle -->
+  <path d="M512 140 L540 260 L660 290 L540 320 L512 440 L484 320 L364 290 L484 260 Z" fill="#FFC947" />
+
+  <!-- Head -->
+  <path d="M370 680 C300 580, 300 360, 460 320 C620 280, 740 360, 720 500 C700 640, 620 720, 500 720 C430 720, 400 700, 370 680 Z" fill="#FF9DA3" />
+
+  <!-- Brain -->
+  <ellipse cx="500" cy="460" rx="100" ry="70" fill="#E86E90" stroke="#822656" stroke-width="10" />
+  <text x="465" y="480" font-size="80" font-weight="bold" fill="#FBE132">£</text>
+
+  <!-- Orbit line -->
+  <path d="M260 420 Q510 140, 760 450" fill="none" stroke="#0D2349" stroke-width="20" stroke-linecap="round" />
+
+  <!-- Title -->
+  <text x="180" y="850" class="text title">SmartSpend</text>
+
+  <!-- Subtitle -->
+  <text x="180" y="920" class="text subtitle">Think Smart. Spend Smarter.</text>
+</svg>
